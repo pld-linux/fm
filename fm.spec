@@ -1,7 +1,7 @@
 Summary:	Football Manager
 Summary(pl):	Menad¿er Pi³karski
 Name:		fm
-Version:	0.98
+Version:	0.99
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
@@ -11,7 +11,6 @@ Source2:	%{name}.png
 Patch0:		%{name}-configure.patch
 Patch1:		%{name}-DESTDIR.patch
 URL:		http://freshmeat.net/projects/footballmanager/
-Buildrequires:	allegro-devel
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
