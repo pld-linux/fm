@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Football Manager
+Comment=Football Manager
+Comment[pl]=Menadżer Piłkarski 
+Exec=fm
+Terminal=0
+Icon=fm.png
+Type=Application
+# vi: encoding=utf-8
