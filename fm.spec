@@ -13,6 +13,8 @@ Patch0:		%{name}-configure.patch
 Patch1:		%{name}-DESTDIR.patch
 URL:		http://freshmeat.net/projects/footballmanager/
 BuildRequires:	SDL-devel >= 1.2.0
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
