@@ -2,7 +2,7 @@ Summary:	Football Manager
 Summary(pl):	Menad¿er Pi³karski
 Name:		fm
 Version:	0.99
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://www.autismuk.freeserve.co.uk/%{name}-%{version}.tar.gz
