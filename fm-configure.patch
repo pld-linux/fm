@@ -1,0 +1,12 @@
+diff -urN aaa/fm-0.98/configure.in fm-0.98/configure.in
+--- aaa/fm-0.98/configure.in	Sat Feb  1 23:35:21 2003
++++ fm-0.98/configure.in	Sun Feb  2 21:53:26 2003
+@@ -105,6 +105,6 @@
+ KDE_CREATE_SUBDIRSLIST
+ AC_CONFIG_FILES([ Makefile ])
+ AC_CONFIG_FILES([ fm/Makefile ])
+-AC_CONFIG_FILES([ fm/docs/Makefile ])
+-AC_CONFIG_FILES([ fm/docs/en/Makefile ])
++#AC_CONFIG_FILES([ fm/docs/Makefile ])
++#AC_CONFIG_FILES([ fm/docs/en/Makefile ])
+ AC_OUTPUT
