@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://www.autismuk.freeserve.co.uk/%{name}-%{version}.tar.gz
+# Source0-md5:	9863cf5f9de638748a8fc4bcdb5cddbf
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 Patch0:		%{name}-configure.patch
