@@ -11,7 +11,7 @@ Source1:	%{name}.desktop
 Source2:	%{name}.png
 Patch0:		%{name}-configure.patch
 Patch1:		%{name}-DESTDIR.patch
-URL:		http://freshmeat.net/projects/footballmanager/
+URL:		http://www.autismuk.freeserve.co.uk/
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	autoconf
 BuildRequires:	automake
