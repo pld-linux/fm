@@ -6,4 +6,5 @@ Exec=fm
 Terminal=0
 Icon=fm.png
 Type=Application
+Encoding=UTF-8
 # vi: encoding=utf-8
