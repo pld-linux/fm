@@ -1,0 +1,14 @@
+diff -urN aaa/fm-0.98/fm/Makefile.am fm-0.98/fm/Makefile.am
+--- aaa/fm-0.98/fm/Makefile.am	Sat Feb  1 23:35:18 2003
++++ fm-0.98/fm/Makefile.am	Sun Feb  2 22:17:45 2003
+@@ -10,8 +10,8 @@
+ EXTRA_DIST = drv_linux.c eos.c fm.c fm.h game.dat init.c io.c main.c match.c matchday.c menu.c misc.c font.c 
+ 
+ install-data-local:
+-	$(mkinstalldirs) /usr/share/fm/
+-	$(INSTALL_DATA) $(srcdir)/game.dat /usr/share/fm/game.dat
++	$(mkinstalldirs) $(DESTDIR)/usr/share/fm/
++	$(INSTALL_DATA) $(srcdir)/game.dat $(DESTDIR)/usr/share/fm/game.dat
+ 
+ uninstall-local:
+ 	-rm -f /usr/share/fm/game.dat
