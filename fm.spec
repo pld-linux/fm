@@ -7,11 +7,12 @@ License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://www.autismuk.freeserve.co.uk/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
+Source2:	%{name}.png
 Patch0:		%{name}-configure.patch
 Patch1:		%{name}-DESTDIR.patch
 URL:		http://freshmeat.net/projects/footballmanager/
 Buildrequires:	allegro-devel
-BuildRequires:	SDL-devel
+BuildRequires:	SDL-devel >= 1.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -41,11 +42,12 @@ rm -f missing
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_applnkdir}/Games
+install -d $RPM_BUILD_ROOT{%{_applnkdir}/Games,%{_pixmapsdir}}
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Games
+install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -56,3 +58,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
 %{_applnkdir}/Games/*
+%{_pixmapsdir}/*
