@@ -2,7 +2,7 @@ Summary:	Football Manager
 Summary(pl):	Menad¿er Pi³karski
 Name:		fm
 Version:	0.99
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://www.autismuk.freeserve.co.uk/%{name}-%{version}.tar.gz
@@ -44,12 +44,12 @@ rm -f missing
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_applnkdir}/Games,%{_pixmapsdir}}
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Games
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
@@ -60,5 +60,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
-%{_applnkdir}/Games/*
+%{_desktopdir}/*
 %{_pixmapsdir}/*
