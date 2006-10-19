@@ -35,7 +35,6 @@ jedn± z najbardziej grywalnych.
 %patch1 -p1
 
 %build
-rm -f missing
 %{__aclocal}
 %{__autoconf}
 %{__automake}
