@@ -1,5 +1,5 @@
 Summary:	Football Manager
-Summary(pl):	Menad¿er Pi³karski
+Summary(pl.UTF-8):   MenadÅ¼er PiÅ‚karski
 Name:		fm
 Version:	0.99
 Release:	3
@@ -23,11 +23,11 @@ Sinclair Spectrum Football Management game. It is not the most
 complicated or prettiest game in the world, but it is one of the most
 fun.
 
-%description -l pl
-Mened¿er Pi³karski jest przepisan± od podstaw s³awn± gr± Sinclair
+%description -l pl.UTF-8
+MenedÅ¼er PiÅ‚karski jest przepisanÄ… od podstaw sÅ‚awnÄ… grÄ… Sinclair
 Spectrum Football Management autorstwa Kevina Tomsa. Nie jest ona
-najbardziej skomplikowan± ani najpiêkniejsz± gr± na ¶wiecie, ale jest
-jedn± z najbardziej grywalnych.
+najbardziej skomplikowanÄ… ani najpiÄ™kniejszÄ… grÄ… na Å›wiecie, ale jest
+jednÄ… z najbardziej grywalnych.
 
 %prep
 %setup -q
