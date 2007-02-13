@@ -1,5 +1,5 @@
 Summary:	Football Manager
-Summary(pl.UTF-8):   Menadżer Piłkarski
+Summary(pl.UTF-8):	Menadżer Piłkarski
 Name:		fm
 Version:	0.99
 Release:	3
